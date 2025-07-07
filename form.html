@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Form Example</title>
+</head>
+<body>
+
+    <h1>Complete Form Example</h1>
+
+    <form action="/submit" method="POST">
+
+        <!-- Text input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Number input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <!-- Range input -->
+        <label for="range">Select range:</label>
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+        <!-- Date input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <!-- Time input -->
+        <label for="appointment_time">Appointment Time:</label>
+        <input type="time" id="appointment_time" name="appointment_time"><br><br>
+
+        <!-- Telephone input -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <!-- URL input -->
+        <label for="website">Website URL:</label>
+        <input type="url" id="website" name="website"><br><br>
+
+        <!-- Color input -->
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <!-- Search input -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search"><br><br>
+
+        <!-- Month input -->
+        <label for="month">Month:</label>
+        <input type="month" id="month" name="month"><br><br>
+
+        <!-- Week input -->
+        <label for="week">Week:</label>
+        <input type="week" id="week" name="week"><br><br>
+
+        <!-- DateTime input -->
+        <label for="datetime">Event Date and Time:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br><br>
+
+        <!-- File upload -->
+        <label for="fileupload">Upload File:</label>
+        <input type="file" id="fileupload" name="fileupload"><br><br>
+
+        <!-- Radio buttons -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox -->
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit"><br><br>
+
+        <!-- Reset button -->
+        <input type="reset" value="Reset"><br><br>
+
+        <!-- Hidden input (for form purposes) -->
+        <input type="hidden" name="hidden_field" value="hidden_value"><br><br>
+
+        <!-- Button input -->
+        <input type="button" value="Click Me" onclick="alert('Button Clicked!')"><br><br>
+
+        <!-- File upload button -->
+        <input type="image" src="submit_button_image.png" alt="Submit" width="100" height="40"><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Select dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="India">India</option>
+        </select><br><br>
+
+        <!-- Optgroup in select -->
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <optgroup label="USA">
+                <option value="NYC">New York</option>
+                <option value="LA">Los Angeles</option>
+            </optgroup>
+            <optgroup label="India">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+            </optgroup>
+        </select><br><br>
+
+        <!-- Fieldset and legend -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+        </fieldset><br>
+
+    </form>
+
+</body>
+</html>
